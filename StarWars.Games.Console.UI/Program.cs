@@ -22,7 +22,8 @@ void AfficherTitre(string titre, DateTime date)
 
 void AfficherTitreI(string titre)
 {
-    titre = $"=== {titre.ToUpper()} === ! version de livraison : {DateTime.Now:ddMMyyyy}";
+    int numeroVersion = 1 / 3;
+    titre = $"=== {titre.ToUpper()} === ! version de livraison : {DateTime.Now:ddMMyyyy}-{numeroVersion.ToString("00.00")}";
 
     Console.WriteLine(titre);
 }
