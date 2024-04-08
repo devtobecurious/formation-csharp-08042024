@@ -1,17 +1,30 @@
-﻿char charEgal = '=';
+﻿const char charEgal = '=';
 
-string titre = "star wars game".ToUpper().PadLeft(20, charEgal).PadRight(30, charEgal);
-char premierCharactere = titre[0];
+// char premierCharactere = titre[0]; // récupération du premier caractère de ma chaine
 
-Console.WriteLine(titre);
-
-titre = "a jedi journey".ToUpper().PadLeft(20, charEgal).PadRight(30, charEgal);
-Console.WriteLine(titre);
+AfficherTitre("star wars game", DateTime.Now);
+AfficherTitreI("a jedi journey");
 
 string saisie = Console.ReadLine();
 Console.WriteLine(saisie);
 
-void AfficherTitre(string titre)
+/// fonction dynamique : privé et créée à la volée
+void AfficherTitre(string titre, DateTime date)
 {
+    string pattern = "=== {0} === ! version de livraison : {1:dd/MM/yyyy}";
 
+    // titre = titre.ToUpper().PadLeft(20, charEgal).PadRight(30, charEgal);
+
+    titre = string.Format(pattern, titre.ToUpper(), date);
+
+    Console.WriteLine(titre);
 }
+
+void AfficherTitreI(string titre)
+{
+    titre = $"=== {titre.ToUpper()} === ! version de livraison : {DateTime.Now:ddMMyyyy}";
+
+    Console.WriteLine(titre);
+}
+
+
