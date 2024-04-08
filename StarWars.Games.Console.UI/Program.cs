@@ -8,7 +8,7 @@ AfficherTitreI("a jedi journey");
 string saisie = Console.ReadLine();
 Console.WriteLine(saisie);
 
-/// fonction dynamique : privé et créée à la volée
+/// fonction dynamique : privée et créée à la volée
 void AfficherTitre(string titre, DateTime date)
 {
     string pattern = "=== {0} === ! version de livraison : {1:dd/MM/yyyy}";
