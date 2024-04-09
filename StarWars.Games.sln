@@ -5,13 +5,19 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarWars.Games.Console.UI", "StarWars.Games.Console.UI\StarWars.Games.Console.UI.csproj", "{AE540CBE-6AFD-4FCA-B3F3-75D3D9B28D6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWars.Games.Core.Models", "StarWars.Games.Core.Models\StarWars.Games.Core.Models.csproj", "{5CB542FA-95CB-4093-A026-EAC8CD4B7665}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarWars.Games.Core.Models", "StarWars.Games.Core.Models\StarWars.Games.Core.Models.csproj", "{5CB542FA-95CB-4093-A026-EAC8CD4B7665}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{2C49AE4E-55D8-41AC-8369-BE010AEE9B08}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{4013BEEF-B9CE-4F90-B737-F61C2D5F3C5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{BFE43AE4-E8EC-4BAA-A375-95B1BF7AB2CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{BFE43AE4-E8EC-4BAA-A375-95B1BF7AB2CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppAncienTemps", "ConsoleAppAncienTemps\ConsoleAppAncienTemps.csproj", "{04C1E1C8-79AA-4C81-9286-4AE4B17FD4A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Learnings", "Learnings", "{11948B0A-D0D6-49BC-A0DC-46E084A661CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecouvertePOOEnCSharp", "DecouvertePOOEnCSharp\DecouvertePOOEnCSharp.csproj", "{ADE4D392-82BA-4B0D-A322-617600BB308C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +37,14 @@ Global
 		{BFE43AE4-E8EC-4BAA-A375-95B1BF7AB2CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFE43AE4-E8EC-4BAA-A375-95B1BF7AB2CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BFE43AE4-E8EC-4BAA-A375-95B1BF7AB2CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04C1E1C8-79AA-4C81-9286-4AE4B17FD4A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04C1E1C8-79AA-4C81-9286-4AE4B17FD4A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04C1E1C8-79AA-4C81-9286-4AE4B17FD4A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04C1E1C8-79AA-4C81-9286-4AE4B17FD4A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADE4D392-82BA-4B0D-A322-617600BB308C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADE4D392-82BA-4B0D-A322-617600BB308C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADE4D392-82BA-4B0D-A322-617600BB308C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADE4D392-82BA-4B0D-A322-617600BB308C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +53,8 @@ Global
 		{AE540CBE-6AFD-4FCA-B3F3-75D3D9B28D6A} = {4013BEEF-B9CE-4F90-B737-F61C2D5F3C5E}
 		{5CB542FA-95CB-4093-A026-EAC8CD4B7665} = {2C49AE4E-55D8-41AC-8369-BE010AEE9B08}
 		{BFE43AE4-E8EC-4BAA-A375-95B1BF7AB2CC} = {4013BEEF-B9CE-4F90-B737-F61C2D5F3C5E}
+		{04C1E1C8-79AA-4C81-9286-4AE4B17FD4A7} = {4013BEEF-B9CE-4F90-B737-F61C2D5F3C5E}
+		{ADE4D392-82BA-4B0D-A322-617600BB308C} = {11948B0A-D0D6-49BC-A0DC-46E084A661CF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A322E117-BFEE-4349-97F6-D7E6ABF4401B}

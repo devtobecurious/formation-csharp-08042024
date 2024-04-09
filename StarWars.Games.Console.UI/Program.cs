@@ -1,7 +1,9 @@
-﻿
-using System.Globalization;
+﻿using System.Globalization;
 
 const char charEgal = '=';
+
+System.Threading.Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
+
 
 // char premierCharactere = titre[0]; // récupération du premier caractère de ma chaine
 #region Exécution code
@@ -61,9 +63,21 @@ void SaisirDateNaissance()
 
             #region Travail sur la culture
             // Culture par date
-            Console.WriteLine("Ta date de naissance est " + dateNaissance.ToString("dddd dd MMMM yyyy", new CultureInfo("en-US")));
+            // var culture = new CultureInfo("en-US");
+            // var culture = new CultureInfo("en-US"); // dotnet 4.x
+            CultureInfo cultureA = new CultureInfo("en-US"); // dotnet 1.0
+            CultureInfo culture = new("en-US"); // dotnet 7
+
+            culture = new("fr-FR");
+
+
+            // var nbCultures; on ne peut pas si on n'affecte pas
+            var nbCultures = 1.0D;
+            // nbCultures = "coucou"; il a déjà le type Double, donc pas possible en string
+            Console.WriteLine("Ta date de naissance est " + dateNaissance.ToString("dddd dd MMMM yyyy", culture));
 
             // Culture par executable
+
             #endregion
 
             bool ageValide = ValiderAge(dateNaissance, 13);
