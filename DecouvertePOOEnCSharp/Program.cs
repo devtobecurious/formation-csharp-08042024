@@ -11,13 +11,22 @@ using DecouvertePOOEnCSharp;
 
 Lion lion = new Lion();
 lion.Longueur = 2;
-lion.Prenom = "Simba";
+var longueur = lion.Longueur;
+
+bool estGros = lion.IsBig;
+
+
+// lion.prenom = "Simba";
+lion.SetPrenom("Simba");
+var prenom = lion.GetPrenom();
+var emotion = lion.GetEmotion();
 
 lion.Manger();
 
 
 Lion lion2 = new Lion();
 lion2.Longueur = 3;
-lion2.Prenom = "Mufasa";
+//lion2.prenom = "Mufasa";
+lion.SetPrenom("Mufasa");
 
 lion2.Manger();
