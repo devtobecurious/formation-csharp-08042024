@@ -37,3 +37,11 @@ koala = new Koala("Koka");
 
 Koala koki = new Koala();
 // koala.Prenom = "koko";
+
+
+Chat chat = new Chat();
+chat.Prenom = "Virgule";
+chat.Sauter();
+chat.Manger();
+
+//Animal animal = new Animal();

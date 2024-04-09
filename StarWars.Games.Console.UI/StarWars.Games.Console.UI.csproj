@@ -11,5 +11,7 @@
     <None Remove="Program-1.cs.old" />
   </ItemGroup>
 
-
+	<ItemGroup>
+		<ProjectReference Include="..\StarWars.Games.Core.Models\StarWars.Games.Core.Models.csproj" />
+	</ItemGroup>
 </Project>

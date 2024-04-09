@@ -1,4 +1,6 @@
-﻿using System.Globalization;
+﻿using StarWars.Games.Core.Models;
+using StarWars.Games.Core.Models.Fights;
+using System.Globalization;
 
 const char charEgal = '=';
 
@@ -12,6 +14,11 @@ AfficherTitreI("a jedi journey");
 
 SaisirProfil();
 ChoisirPersonnage();
+
+
+//StarWars.Games.Core.Models.Profil profil = new StarWars.Games.Core.Models.Profil();
+Profil? profil = null;
+// Test.Profil
 
 string saisie = Console.ReadLine();
 Console.WriteLine(saisie);
@@ -90,6 +97,8 @@ void SaisirDateNaissance()
                 Console.ReadLine();
                 Environment.Exit(0);
             }
+
+            // profil = new Profil("", dateNaissance.); // TODO: c'est ici qu'on va créer notre profil utilisateur
         }
     }
 }
@@ -102,6 +111,27 @@ bool ValiderAge(DateTime date, int ageRequis)
     return age >= ageRequis;
 }
 
+//void ChoisirPersonnage()
+//{
+//    //string[] persos = new string[4];
+//    //persos[0] = "Luke";
+//    //persos[1] = "Leia";
+//    //persos[2] = "Anakin";
+//    //persos[3] = "Qui Gon";
+
+//    string[] persos = ["Luke", "Leia", "Anakin", "Qui Gon"];
+
+
+//    Console.WriteLine("Choisis ton perso");
+//    for (int i = 0; i < persos.Length; i++)
+//    {
+//        Console.WriteLine("{0}: {1}", i, persos[i]);
+//        Console.WriteLine($"{i} : {persos[i]}");
+//    }
+//    string persoIndexString = Console.ReadLine();
+//    Console.WriteLine("Tu as choisi le perso {0}", persos[int.Parse(persoIndexString)]);
+//}
+
 void ChoisirPersonnage()
 {
     //string[] persos = new string[4];
@@ -110,7 +140,7 @@ void ChoisirPersonnage()
     //persos[2] = "Anakin";
     //persos[3] = "Qui Gon";
 
-    string[] persos = ["Luke", "Leia", "Anakin", "Qui Gon"];
+    Character[] persos = [new Character(1, "Leia"), new(2, "Luke"), new(3, "Anakin")];
 
 
     Console.WriteLine("Choisis ton perso");
