@@ -1,6 +1,9 @@
 ﻿namespace DecouvertePOOEnCSharp
 {
     // Dépend du contexte
+    /// <summary>
+    /// 
+    /// </summary>
     public class Lion // CTL Common Type Langage : tous les types possibles ds dotnet
     {
         #region Fields
@@ -42,7 +45,11 @@
         #endregion
 
         #region Methods
-        public void Manger()
+        /// <summary>
+        /// Je mange de la nourriture
+        /// </summary>
+        /// <param name="nourriture">Ne doit pas être null</param>
+        public void Manger(string nourriture)
         {
             this.emotion = "extra joie"; // Pattern SRP / Expert : celui qui sait, celui qui fait
             this.Croque();

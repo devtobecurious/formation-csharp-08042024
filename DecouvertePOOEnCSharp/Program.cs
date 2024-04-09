@@ -21,7 +21,7 @@ lion.SetPrenom("Simba");
 var prenom = lion.GetPrenom();
 var emotion = lion.GetEmotion();
 
-lion.Manger();
+lion.Manger("");
 
 
 Lion lion2 = new Lion();
@@ -29,4 +29,11 @@ lion2.Longueur = 3;
 //lion2.prenom = "Mufasa";
 lion.SetPrenom("Mufasa");
 
-lion2.Manger();
+lion2.Manger("");
+
+
+Koala koala = new Koala("Koko");
+koala = new Koala("Koka");
+
+Koala koki = new Koala();
+// koala.Prenom = "koko";
