@@ -55,7 +55,7 @@ animal.Manger();
 
 
 
-List<Animal> list = new List<Animal>();
+List<Animal> list = new();
 list.Add(new Ornythorinque());
 list.Add(new Goeland());
 list.Add(new Chat());
@@ -72,6 +72,7 @@ for (int i = 0; i < list.Count; i++)
 foreach (var item in list)
 {
     item.Manger();
+    item.Dormir();
 }
 
 list.ForEach(item => item.Manger()); // vous saurez faire ce soir

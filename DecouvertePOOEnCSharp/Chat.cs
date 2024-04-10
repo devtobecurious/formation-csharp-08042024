@@ -2,6 +2,11 @@
 
 public class Chat : Felin // Héritage d'une seule classe
 {
+    public override void Dormir()
+    {
+        Console.WriteLine("Je dors comme un pacha");
+    }
+
     public override void Manger()
     {
         Console.WriteLine("Je ronronnne");

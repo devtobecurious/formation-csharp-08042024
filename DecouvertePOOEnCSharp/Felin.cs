@@ -1,8 +1,6 @@
-﻿using DecouvertePOOEnCSharp.Zoo;
-
-namespace DecouvertePOOEnCSharp
+﻿namespace DecouvertePOOEnCSharp
 {
-    public class Felin : Animal
+    public abstract class Felin : Animal
     {
         public override void Manger()
         {
