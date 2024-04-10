@@ -1,10 +1,15 @@
 ﻿namespace DecouvertePOOEnCSharp;
 
-public class Chat : Felin // Héritage d'une seule classe
+public class Chat : Felin, ILoonyToons // Héritage d'une seule classe
 {
     public override void Dormir()
     {
         Console.WriteLine("Je dors comme un pacha");
+    }
+
+    public void FaireCoinCoin()
+    {
+        Console.WriteLine("Je suis Sylvestre");
     }
 
     public override void Manger()

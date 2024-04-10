@@ -78,3 +78,36 @@ foreach (var item in list)
 list.ForEach(item => item.Manger()); // vous saurez faire ce soir
 
 // (animal as Chat).Sauter();
+
+
+List<IVolant> volants = new List<IVolant>()
+{
+    new ChauveSouris(),
+    new Goeland()
+};
+
+
+foreach (var item in volants)
+{
+    item.Voler();
+}
+
+
+void FaireVoler(IVolant volant)
+{
+    volant.Voler();
+}
+FaireVoler(new ChauveSouris());
+
+Humain leia = new Humain();
+FaireVoler(leia);
+
+// FaireVoler(new Chat());
+
+//void FaireCoin(ILoonyToons toons)
+//{
+//    toons.FaireCoinCoin();
+//}
+
+//FaireCoin(new Ornythorinque());
+//FaireCoin(new Chat());

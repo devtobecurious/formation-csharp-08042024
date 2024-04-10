@@ -1,7 +1,7 @@
 ﻿
 namespace DecouvertePOOEnCSharp;
 
-public class Ornythorinque : Animal
+public class Ornythorinque : Animal, ILoonyToons
 {
     public override void Manger()
     {
@@ -12,5 +12,10 @@ public class Ornythorinque : Animal
     public override void Dormir()
     {
         Console.WriteLine("Je dors dans mon terrier");
+    }
+
+    public void FaireCoinCoin()
+    {
+        Console.WriteLine("Je fais coin coin");
     }
 }
