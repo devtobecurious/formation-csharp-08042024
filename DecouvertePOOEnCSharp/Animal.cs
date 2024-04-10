@@ -1,9 +1,9 @@
-﻿namespace DecouvertePOOEnCSharp
+﻿namespace DecouvertePOOEnCSharp.Zoo
 {
-    public class Animal
+    public abstract class Animal
     {
         #region Public methods
-        public void Manger()
+        public virtual void Manger()
         {
             Console.WriteLine("{0} Je mange", this.Prenom);
         }
@@ -13,11 +13,18 @@
         /// <summary>
         /// Prénom du koala
         /// </summary>
+        private string prenom;
         public string Prenom
         {
-            get;
-            set;
+            get { return this.prenom; }
+            set
+            {
+                if (value.Length > 3)
+                {
+                    this.prenom = value;
+                }
+            }
+            #endregion
         }
-        #endregion
     }
 }

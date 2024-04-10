@@ -40,8 +40,40 @@ Koala koki = new Koala();
 
 
 Chat chat = new Chat();
-chat.Prenom = "Virgule";
-chat.Sauter();
-chat.Manger();
+chat.Prenom = "Bougie";
+//chat.Sauter();
+//chat.Manger();
 
-//Animal animal = new Animal();
+//Felin felin = new Chat();
+Animal animal = new Chat();
+animal.Prenom = "Onyx";
+//Animal animal2 = new Lion();
+//string saisie = Console.ReadLine();
+//animal.Prenom = Console.ReadLine();
+
+animal.Manger();
+
+
+
+List<Animal> list = new List<Animal>();
+list.Add(new Ornythorinque());
+list.Add(new Goeland());
+list.Add(new Chat());
+list.Add(new ChauveSouris());
+
+Animal[] tablAnimals = [new Ornythorinque()];
+
+
+for (int i = 0; i < list.Count; i++)
+{
+    list[i].Manger();
+}
+
+foreach (var item in list)
+{
+    item.Manger();
+}
+
+list.ForEach(item => item.Manger()); // vous saurez faire ce soir
+
+// (animal as Chat).Sauter();
