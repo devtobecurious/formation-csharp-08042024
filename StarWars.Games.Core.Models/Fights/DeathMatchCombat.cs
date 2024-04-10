@@ -9,7 +9,16 @@
                 attaquant.Attaquer(attaquant2);
                 if (attaquant2.EstEnVie)
                 {
-                    attaquant2.Attaquer(attaquant);
+                    try
+                    {
+                        attaquant2.Attaquer(attaquant);
+                    }
+                    catch (Exception)
+                    {
+                        // Je traite l'erreur
+                        throw; // je balance l'erreur, je la laisse se propager
+                    }
+
                 }
             }
         }

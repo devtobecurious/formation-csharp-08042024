@@ -32,8 +32,18 @@ public class Character(int id, string prenom) : IAttaquant //dotnet 8 // C# 12
     #endregion
 
     #region Public methods
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="autre"></param>
+    /// <exception cref="Exception">Si autre est soi-même, ça plante</exception>
     public void Attaquer(IAvecPointsDeVie autre)
     {
+        if (autre == this) // même référence
+        {
+            throw new Exception("On ne peut s'attaquer soi-même");
+        }
+
         autre.PointsDeVie -= this.ArmeParDefaut.ValeurCout;
     }
     #endregion
