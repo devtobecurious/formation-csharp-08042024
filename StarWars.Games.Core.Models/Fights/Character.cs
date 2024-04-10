@@ -17,7 +17,7 @@
 //    #endregion
 //}
 
-public class Character(int id, string prenom) //dotnet 8 // C# 12
+public class Character(int id, string prenom) : IAttaquant //dotnet 8 // C# 12
 {
     #region Constructors
     public Character(int id, string prenom, int taille) : this(id, prenom)
@@ -31,9 +31,23 @@ public class Character(int id, string prenom) //dotnet 8 // C# 12
     }
     #endregion
 
+    #region Public methods
+    public void Attaquer(IAvecPointsDeVie autre)
+    {
+        autre.PointsDeVie -= this.ArmeParDefaut.ValeurCout;
+    }
+    #endregion
+
     #region Properties
     public int Id { get; } = id;
     public string Prenom { get; set; } = prenom;
+
+    public int PointsDeVie { get; set; }
+
+    //    public bool EstEnVie => this.PointsDeVie > 0;
+    public bool EstEnVie { get { return this.PointsDeVie > 0; } }
+
+    public IArme ArmeParDefaut { get; set; }
     #endregion
 }
 
