@@ -1,5 +1,5 @@
 ﻿namespace DecouverteDelegues
 {
     delegate void Afficher(string message);
-    delegate void AfficherAvecUnParam(string message, object param);
+    delegate void AfficherAvecUnParam(string message, int param);
 }
