@@ -1,2 +1,63 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram /> 
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="StarWars.Games.Core.Models.Fights.Arbalete" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fights\Arbalete.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarWars.Games.Core.Models.Fights.LaserArbalete" Collapsed="true">
+    <Position X="4.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fights\Arbalete.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarWars.Games.Core.Models.Fights.BaseArme" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAQAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fights\BaseArme.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="StarWars.Games.Core.Models.Fights.Character" Collapsed="true">
+    <Position X="6.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAACAAAAAAAAAAAAAAAAAAAQCAQAAgAAAA=</HashCode>
+      <FileName>Fights\Character.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="StarWars.Games.Core.Models.Fights.DeathMatchCombat" Collapsed="true">
+    <Position X="2.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fights\DeathMatchCombat.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="StarWars.Games.Core.Models.Fights.IArme" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fights\IArme.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="StarWars.Games.Core.Models.Fights.IAttaquant" Collapsed="true">
+    <Position X="6.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Fights\IAttaquant.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="StarWars.Games.Core.Models.Fights.ICombat" Collapsed="true">
+    <Position X="3" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fights\ICombat.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

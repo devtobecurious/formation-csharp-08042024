@@ -7,6 +7,8 @@ void AfficherUnMessage(string message)
 }
 
 Afficher afficher = AfficherUnMessage;
+
+
 afficher("il était");
 
 void AfficherUnMessageEnRouge(string message)
