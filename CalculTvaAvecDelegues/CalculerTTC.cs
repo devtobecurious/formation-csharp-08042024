@@ -14,7 +14,7 @@
 
             decimal? valeurTva = getTva?.Invoke(culture);
 
-            return prixHT * (1 + valeurTva ?? 0.2M);
+            return prixHT * (1 + (valeurTva ?? 0.2M));
         }
 
         //public void Calculer(decimal prixHT, GetTva? getTva = null)

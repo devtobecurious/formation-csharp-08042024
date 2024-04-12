@@ -15,4 +15,8 @@
 		<ProjectReference Include="..\StarWars.Games.Core.Models\StarWars.Games.Core.Models.csproj" />
 		<ProjectReference Include="..\StarWars.Games.Core.UI.Models\StarWars.Games.Core.UI.Models.csproj" />
 	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Properties\PublishProfiles\" />
+	</ItemGroup>
 </Project>

@@ -4,6 +4,10 @@ using System.Globalization;
 
 const char charEgal = '=';
 
+#if DEBUG
+// uniquement en compilation de Debug
+#endif
+
 System.Threading.Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
 
 
