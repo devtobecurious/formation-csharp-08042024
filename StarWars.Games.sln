@@ -25,17 +25,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CombatAMort", "CombatAMort\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecouverteDelegues", "DecouverteDelegues\DecouverteDelegues.csproj", "{EDBB6F56-1EEA-4EF0-A869-1A8416810961}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculTvaAvecDelegues", "CalculTvaAvecDelegues\CalculTvaAvecDelegues.csproj", "{264A7A7A-CF17-4F90-B3DA-28AAAFD5AB49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculTvaAvecDelegues", "CalculTvaAvecDelegues\CalculTvaAvecDelegues.csproj", "{264A7A7A-CF17-4F90-B3DA-28AAAFD5AB49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{20ED23F8-8FED-42FF-BFC4-FA717CA4DBB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{20ED23F8-8FED-42FF-BFC4-FA717CA4DBB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecouverteEvenements", "DecouverteEvenements\DecouverteEvenements.csproj", "{89C41A1E-1468-4B6A-9496-D2D5D9638929}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecouverteEvenements", "DecouverteEvenements\DecouverteEvenements.csproj", "{89C41A1E-1468-4B6A-9496-D2D5D9638929}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWars.Games.Core.UI.Models", "StarWars.Games.Core.UI.Models\StarWars.Games.Core.UI.Models.csproj", "{D6DC02F3-4B31-40FE-B959-A41B2C2E0175}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarWars.Games.Core.UI.Models", "StarWars.Games.Core.UI.Models\StarWars.Games.Core.UI.Models.csproj", "{D6DC02F3-4B31-40FE-B959-A41B2C2E0175}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameTestUI", "GameTestUI\GameTestUI.csproj", "{257552E7-172B-4944-80CC-2C7800048A36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameTestUI", "GameTestUI\GameTestUI.csproj", "{257552E7-172B-4944-80CC-2C7800048A36}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecouverteLinq", "DecouverteLinq\DecouverteLinq.csproj", "{AAEC4403-15FE-48E5-A66C-6F7DA82C7402}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecouverteLinq", "DecouverteLinq\DecouverteLinq.csproj", "{AAEC4403-15FE-48E5-A66C-6F7DA82C7402}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{F51530A4-C801-40B6-A6FB-9E8F98029861}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{AAEC4403-15FE-48E5-A66C-6F7DA82C7402}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AAEC4403-15FE-48E5-A66C-6F7DA82C7402}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AAEC4403-15FE-48E5-A66C-6F7DA82C7402}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F51530A4-C801-40B6-A6FB-9E8F98029861}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F51530A4-C801-40B6-A6FB-9E8F98029861}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F51530A4-C801-40B6-A6FB-9E8F98029861}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F51530A4-C801-40B6-A6FB-9E8F98029861}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -118,6 +124,7 @@ Global
 		{D6DC02F3-4B31-40FE-B959-A41B2C2E0175} = {2C49AE4E-55D8-41AC-8369-BE010AEE9B08}
 		{257552E7-172B-4944-80CC-2C7800048A36} = {4013BEEF-B9CE-4F90-B737-F61C2D5F3C5E}
 		{AAEC4403-15FE-48E5-A66C-6F7DA82C7402} = {11948B0A-D0D6-49BC-A0DC-46E084A661CF}
+		{F51530A4-C801-40B6-A6FB-9E8F98029861} = {11948B0A-D0D6-49BC-A0DC-46E084A661CF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A322E117-BFEE-4349-97F6-D7E6ABF4401B}
