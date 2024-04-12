@@ -2,6 +2,13 @@
 using StarWars.Games.Core.Models.Fights;
 using System.Globalization;
 
+
+Coin coin = new(1);
+Coin coin2 = new(1);
+
+bool isIdentic = coin == coin2;
+
+
 const char charEgal = '=';
 
 #if DEBUG
