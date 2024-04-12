@@ -88,6 +88,10 @@ var nouveauWookiee = new Wookiee()
     Prenom = "Kilokt"
 };
 dbContext.Wookiees.Add(nouveauWookiee);
-dbContext.SaveChanges();
+//Task task = dbContext.SaveChangesAsync(); // Eager
+//Task.WaitAll(task);
+
+await dbContext.SaveChangesAsync();
+// Tout le code ici est asynchrone
 
 #endregion
